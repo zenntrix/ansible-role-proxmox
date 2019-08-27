@@ -13,7 +13,6 @@
       - ceph-mds
       - ceph-fuse
       - gdisk
-    install_recommends: false
 
 - name: Install custom Ceph systemd service
   copy:

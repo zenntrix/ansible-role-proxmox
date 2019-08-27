@@ -16,8 +16,6 @@
     test_profiles:
       - profile: debian-buster
         prefix: proxmox-6-
-      - profile: debian-stretch
-        prefix: proxmox-5-
     test_hosts_per_profile: 3
     container_config:
       - "lxc.apparmor.profile = unconfined"
